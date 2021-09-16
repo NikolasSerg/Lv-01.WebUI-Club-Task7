@@ -1,0 +1,44 @@
+body {
+    min-height: 100vh;
+    background-color: #d7d0d0;
+
+}
+
+.wrap {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nav-wrapper {
+    padding-left: 15px;
+}
+.nonDisplay {
+    display: none;
+}
+.load {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card {
+    width: 280px;
+}
+.cardList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.card-title {
+    padding: 10px!important;
+    background-color: rgba(173, 168, 168, 0.52);
+}
+.card-image {
+    height: 250px;
+    overflow: hidden;
+}
+footer {
+    padding: 15px!important;
+}

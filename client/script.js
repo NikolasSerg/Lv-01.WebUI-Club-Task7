@@ -24,6 +24,11 @@
     </nav>
 </header>
 <main>
+     <div class="load">
+        <a class="waves-effect waves-light btn-large loadBtn">LOAD</a>
+        <h3 class="nonDisplay">LOADING ...</h3>
+    </div>
+    <div class="cardList"></div>
 </main>
 
 
